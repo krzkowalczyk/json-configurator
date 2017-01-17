@@ -14,8 +14,11 @@ node {
   echo 'Hello World'
 
     def config =  jsonParse(readFile(json_file))
-    echo config.key.inspect()
+    for ( e in config['iis_app'] ) {
+      print "key = ${e.key}, value = ${e.value}"
+    }
     def version = config["iis_app"]["fnetagent"]
+    echo version
 
 }
 
