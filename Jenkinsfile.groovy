@@ -18,7 +18,7 @@ node {
       print "key = ${e.key}, value = ${e.value}"
     }
     def version = config["iis_app"]["fnetagent"]
-    echo version
+    echo version.toString()
 
 }
 
