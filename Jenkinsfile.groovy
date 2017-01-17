@@ -5,8 +5,7 @@ def jsonParse(def json) {
     new groovy.json.JsonSlurperClassic().parseText(json)
 }
 
-repository['url'] = 'https://github.com/krzkowalczyk/json-configurator.git'
-repository['branch'] = 'devel'
+repository = [url:'https://github.com/krzkowalczyk/json-configurator.git', branch:'devel']
 json_file = './fnetagent.json'
 
 
