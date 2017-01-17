@@ -1,0 +1,11 @@
+{
+  "id": "fnatagent",
+  "iis_app":{
+    "fnetagent": {
+      "name": "My name",
+      "version": 1.2,
+      "pool": "my_pool",
+      "site": "my_site"
+    }
+  }
+}
