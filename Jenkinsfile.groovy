@@ -13,7 +13,7 @@ node {
   git branch: repository['branch'], url: repository['url']
   echo 'Hello World'
 
-    def config =  jsonParse(readFile("config.json"))
+    def config =  jsonParse(readFile(json_file))
     echo config.key.inspect()
     def version = config["iis_app"]["fnetagent"]
 
