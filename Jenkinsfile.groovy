@@ -7,7 +7,7 @@ def jsonParse(def json) {
 
 repository = [url:'https://github.com/krzkowalczyk/json-configurator.git', branch:'devel']
 json_file = './fnetagent.json'
-def appsVersions[:]
+def appsVersions = [:]
 dataSource = [repository_url:'ttps://github.com/krzkowalczyk/json-configurator.git', branch:'devel', file:'sample/releases.json', loopElement:'versions', value: 'key']
 
 node {
