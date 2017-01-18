@@ -1,0 +1,17 @@
+{
+  "id": "fnatservice",
+  "versions" : {
+    "0.1": {
+      "source": "https:contoso.com",
+      "type": "zip"
+    },
+    "4.4": {
+      "source": "https:contoso11.com",
+      "type": "zip"
+    },
+    "7.2": {
+      "source": "https:contoso2.com",
+      "type": "zip"
+    }
+  }
+}

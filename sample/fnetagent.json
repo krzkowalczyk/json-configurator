@@ -6,6 +6,12 @@
       "version": 1.2,
       "pool": "my_pool",
       "site": "my_site"
+    },
+    "fnetservice": {
+      "name": "My name",
+      "version": 1.2,
+      "pool": "my_pool",
+      "site": "my_site"
     }
   }
 }
