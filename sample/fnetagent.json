@@ -12,6 +12,12 @@
       "version": 1.2,
       "pool": "my_pool",
       "site": "my_site"
+    },
+    "fnetproduct": {
+      "name": "My name",
+      "version": 1.2,
+      "pool": "my_pool",
+      "site": "my_site"
     }
   }
 }

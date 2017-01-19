@@ -1,0 +1,17 @@
+{
+  "id": "fnetproduct",
+  "versions" : {
+    "10.1": {
+      "source": "https:contoso.com",
+      "type": "zip"
+    },
+    "14.4": {
+      "source": "https:contoso11.com",
+      "type": "zip"
+    },
+    "17.2": {
+      "source": "https:contoso2.com",
+      "type": "zip"
+    }
+  }
+}
